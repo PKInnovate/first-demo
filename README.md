@@ -67,7 +67,8 @@ git branch -d <-branch name-><br>
 <br>
 <h3>Merge Branch Commands<h3>
 git diff<-branch name-> (to compare, branches, files and more)<br>
-git merge <-branch name-> (to mearge two branches)
+git merge <-branch name-> (to mearge two branches)<br><br>
+<br>
 
 
 
