@@ -35,7 +35,35 @@ git remote add origin https://github.com/username/repo.git
 
 <br>
 <h3>Real-World Workflow (Daily Use)<h3>
-git pull
-git add .
-git commit -m "Updated module"
-git push
+git pull<br>
+git add .<br>
+git commit -m "Updated module"<br>
+git push<br>
+
+<br>
+<h3>create a new repository on the command line<h3>
+echo "# localrepo" >> README.md
+git init<br>
+git remote add origin <-link-> <br>
+git remote -v <br>
+git branch<br>
+git branch -M main<br>
+<br>
+git add README.md<br>
+git commit -m "first commit"<br>
+git branch -M main<br>
+git remote add origin https://github.com/PKInnovate/localrepo.git<br>
+git push -u origin main<br>
+
+<br>
+<h3>Branch Commands<h3>
+git checkout<br>
+git branch -M main<br>
+git checkout <-branch name-><br>
+git checkout -b <-new branch name-><br>
+git branch -d <-branch name-><br>
+
+<br>
+<h3>Merge Branch Commands<h3>
+git diff<-branch name-> (to compare, branches, files and more)<br>
+git merge <-branch name-> (to mearge two branches)
