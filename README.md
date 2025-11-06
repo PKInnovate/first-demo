@@ -4,6 +4,7 @@ First git repo.
 Author - Prakash Bhanu (PKInnovate)<br>
 <h> Git Commands </h>
 <h3>First Time Setup<h3>
+Open git bash to config the user..
 git config --global user.name "Your Name"<br>
 git config --global user.email "your@email.com"\
 
@@ -67,3 +68,31 @@ git branch -d <-branch name-><br>
 <h3>Merge Branch Commands<h3>
 git diff<-branch name-> (to compare, branches, files and more)<br>
 git merge <-branch name-> (to mearge two branches)
+
+
+
+✅ To fix it (safe way)
+
+Run this: <br>
+
+git pull --rebase origin main
+
+
+Then push again: <br>
+
+git push origin main <br>
+
+🧠 Why --rebase?
+
+It replays your local commits on top of the updated <br>remote history, keeping the commit history <br>clean.<br>
+
+If you get merge conflicts: <br>
+
+Git will highlight files. You fix conflicts, then:<br>
+
+git add .
+git rebase --continue
+git push origin main
+
+⚠️ If you do NOT care about remote changes and want to force push (this overwrites remote):<br>
+git push --force origin main
