@@ -1,6 +1,6 @@
 <h1>First git repo.
 <br>
-Author - Prakash Bhanu (PKInnovate)<br>
+Author - Prakash Bhanu <br>
 
 # 🚀 Git Commands & Python Virtual Environment Guide
 
