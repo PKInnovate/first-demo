@@ -1,4 +1,4 @@
-<h1>**First git repo.**
+<h1>First git repo.
 <br>
 Author - Prakash Bhanu (PKInnovate)<br>
 
